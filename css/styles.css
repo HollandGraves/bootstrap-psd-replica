@@ -32,6 +32,30 @@ nav a.nav-link {
 
 
 
+@media(max-width: 365px) {
+
+    #navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    button.navbar-toggler {
+        height: 24px;
+        width: 33px;
+        
+    }
+
+    span.navbar-toggler-icon {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        right: 23px;
+        top: 34px;
+    }
+
+}
+
+
+
 /* 
 ----------------------------------------------------------
 carousel
@@ -40,3 +64,89 @@ carousel
 
 
 
+#carousel-container {
+    margin-top: 61px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+
+
+/* 
+----------------------------------------------------------
+services
+----------------------------------------------------------
+*/
+
+
+
+#services {
+    background-color: #fff;
+}
+
+div.col-3.pt-5 {
+    justify-content: space-between;
+}
+
+#services img.img-fluid {
+    object-fit: cover;
+    max-height: 221.75px;
+}
+
+#services h4.py-5 {
+    font-weight: 700;
+    font-size: 1.3rem
+}
+
+#services p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+
+/* 
+----------------------------------------------------------
+portfolio
+----------------------------------------------------------
+*/
+
+
+
+#portfolio {
+    background-color: #97D0A3;
+}
+
+#portfolio p.text-light {
+    max-width: 575px;
+    justify-content: center;
+    font-size: 1.1rem;
+    opacity: 0.575;
+}
+
+a.nav-link.text-uppercase.text-transparent {
+    color: #fff;
+}
+
+a.nav-link.text-uppercase.text-transparent:hover {
+    border: 1.5px solid #fff;
+}
+
+a.nav-link.active.text-uppercase.text-transparent {
+    background-color: #fff;
+    font-weight: 800;
+    color: #97D0A3;
+}
