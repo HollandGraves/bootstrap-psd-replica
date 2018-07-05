@@ -23,6 +23,14 @@ nav a.nav-link {
     font-size: 1.05rem;
 }
 
+nav a.nav-link:hover {
+    border: 2px solid #3B4A4D;
+}
+
+nav a.nav-link:hover > .nav-pills .nav-link.active {
+    border: none;
+}
+
 .nav-pills .nav-link.active {
     margin-top: 3px;
     padding: 5px 12px;
