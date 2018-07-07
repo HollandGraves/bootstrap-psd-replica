@@ -158,3 +158,31 @@ a.nav-link.active.text-uppercase.text-transparent {
     font-weight: 800;
     color: #97D0A3;
 }
+
+.portfolio-img {
+    object-fit: cover;
+    height: 350px;
+}
+
+
+
+/* 
+----------------------------------------------------------
+blog
+----------------------------------------------------------
+*/
+
+
+
+.blog-img {
+    object-fit: contain;
+    height: 335px;
+}
+
+#blog-article {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+}
+
+#blog-button-1 {
+    background-color: #97D0A3;
+}
