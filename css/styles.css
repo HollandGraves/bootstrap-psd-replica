@@ -186,3 +186,11 @@ blog
 #blog-button-1 {
     background-color: #97D0A3;
 }
+
+#blog-team {
+    background-color: #DFB6C6;
+}
+
+div.container.text-center.text-light p {
+    opacity: 0.5;
+}
