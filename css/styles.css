@@ -174,7 +174,7 @@ blog
 
 
 
-.blog-img {
+.blog-img-1 {
     object-fit: contain;
     height: 335px;
 }
@@ -191,6 +191,20 @@ blog
     background-color: #DFB6C6;
 }
 
-div.container.text-center.text-light p {
-    opacity: 0.5;
+div.container.text-center.text-light p.mx-auto {
+    max-width: 417px;
+    opacity: 0.68;
+}
+
+.team-member-name {
+    font-weight: 500;
+}
+
+h6.text-uppercase.text-center {
+    font-weight: 600;
+}
+
+p.lead.text-center {
+    font-size: 1.2rem;
+
 }
