@@ -252,3 +252,13 @@ h6.text-uppercase.text-center {
 p.recent-post-p.lead.text-center {
     font-size: 1rem;
 }
+
+
+@media (min-width: 992px) {
+
+    #blog-recent-posts div.col-12.col-lg-3.mt-5.pb-3.px-0.bg-light {
+        flex: 0 0 29%;
+        max-width: 29%;
+    }
+
+}
