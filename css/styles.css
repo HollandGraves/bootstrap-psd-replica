@@ -277,6 +277,64 @@ div#contact.container-fluid {
     background-color: #3C3C3C;
 }
 
-#contact form.mx-auto.text-center {
+#contact form.mx-auto.text-center.py-4 {
     max-width: 500px;
+}
+
+div#footer.container.py-4 {
+    max-width: 1060px;
+    border-top: 3px solid rgba(0, 0, 0, 0.25);
+}
+
+i.foot-social.fab.fa-twitter::before {
+    padding: 11px 12px;
+    border-radius: 50%;
+    background-color: rgba(83, 83, 83, 0.9);
+    color: #3C3C3C;
+    font-size: 1.2rem;
+}
+
+i.foot-social.fab.fa-facebook-f::before {
+    padding: 11px 16px;
+    border-radius: 50%;
+    background-color: rgba(83, 83, 83, 0.9);
+    color: #3C3C3C;
+    font-size: 1.2rem;
+}
+
+i.foot-social.fab.fa-html5 {
+    padding: 11px 14px;
+    border-radius: 50%;
+    background-color: rgba(83, 83, 83, 0.9);
+    color: #3C3C3C;
+    font-size: 1.2rem;
+    
+}
+
+i.foot-social.fab.fa-flickr {
+    padding: 11px 13px;
+    border-radius: 50%;
+    background-color: rgba(83, 83, 83, 0.9);
+    color: #3C3C3C;
+    font-size: 1.2rem;
+}
+
+span.footer-span-1 {
+    color: rgba(255, 202, 40, 0.5);
+}
+
+span.footer-span-2 {
+    color: rgba(122, 122, 122, 0.9);
+}
+
+@media(min-width: 768px) {
+
+    div#footer.container.py-4 {
+        position: relative;
+    }
+    
+    div.text-center.text-md-right.d-md-inline-block.py-4.py-md-0 {
+        position: absolute;
+        right: 0
+    }
 }
