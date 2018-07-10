@@ -196,7 +196,7 @@ div#blog.container-fluid.py-5 {
 }
 
 div.container.text-center.text-light p.mx-auto {
-    max-width: 417px;
+    max-width: 420px;
     opacity: 0.68;
 }
 
@@ -261,4 +261,22 @@ p.recent-post-p.lead.text-center {
         max-width: 29%;
     }
 
+}
+
+
+
+/* 
+----------------------------------------------------------
+contact
+----------------------------------------------------------
+*/
+
+
+
+div#contact.container-fluid {
+    background-color: #3C3C3C;
+}
+
+#contact form.mx-auto.text-center {
+    max-width: 500px;
 }
